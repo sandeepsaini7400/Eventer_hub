@@ -1,0 +1,36 @@
+Arguments: 
+  /home/blubirch/.nvm/versions/node/v19.4.0/bin/node /usr/share/yarn/bin/yarn.js build:css
+
+PATH: 
+  /usr/share/rvm/gems/ruby-3.0.0/bin:/usr/share/rvm/gems/ruby-3.0.0@global/bin:/usr/share/rvm/rubies/ruby-3.0.0/bin:/usr/share/rvm/bin:/home/blubirch/.nvm/versions/node/v19.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/blubirch/Event/event_founder/package.json: Expected ',' or '}' after property value in JSON at position 42
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true" 
+    "scripts": { "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules" } to your package.json
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
