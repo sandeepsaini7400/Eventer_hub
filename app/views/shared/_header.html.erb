@@ -1,17 +1,22 @@
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary" 	>
+<nav class="navbar navbar-expand-lg bg-info p-0" 	>
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="home">
+    	<img src="<%= asset_path("logo_white.png") %>" width="120%" height="80vh">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="index">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link text-white" href="contact">Contact us</a>
+        </li>
+        <li class="nav-item">
+        	<a class="nav-link text-white" href="Catagory">Catagory</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -25,7 +30,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link"></a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -36,3 +41,4 @@
   </div>
 </nav>
 
+  <div class="container-fluid">
