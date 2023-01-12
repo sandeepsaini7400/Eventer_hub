@@ -1,5 +1,13 @@
+
 body{
-	background-image: url('background.jpg');
-	background-position:center;
-	background-repeat: no-repeat;
+	  background-image: url("background.jpg");
 }
+.navbar{
+    background: linear-gradient(to right, #33ccff 0%, #cc33ff 100%);
+}
+
+button{
+	background-color: ;
+}
+
+
