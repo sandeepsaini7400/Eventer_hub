@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-root "home#index"
-get "/home", to: "home#index"
-get "/index", to: "home#index"
-get "/Catagory", to: "home#Catagory"
-get "/contact", to: "home#contact"
-get "/eventer" , to: "home#eventer"
-get "/Register", to: "home#Register"
-get "/login", to: "home#login"
+root "event#index"
+
+get "/index", to: "event#index"
+get "/Catagory", to: "event#Catagory"
+get "/contact", to: "event#contact"
+get "/eventer" , to: "event#eventer"
+get "/Register", to: "event#Register"
+get "/login", to: "event#login"
  
 end
