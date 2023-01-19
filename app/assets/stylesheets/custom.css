@@ -7,19 +7,20 @@ body{
 .navbar{
     background: linear-gradient(to right, #33ccff 0%, #cc33ff 100%);
 }
-a.btn:hover{
+a.btn:hover{;*/
+
 	background-color:lavender;
 	box-shadow: black;
 
 }
 
 .form-group{
-	background-color:white;
-	box-shadow: black:;
-/*	border: 1px solid black;*/
-}
-.form-group label {
+	background-color:red;
+	box-shadow: black;
 	
+}
+.btn {
+/*	color: lightblue;*/
 }
 
 
